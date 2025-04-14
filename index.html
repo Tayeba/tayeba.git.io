@@ -2,21 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Shobhita Sundaram</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>About Me</h1>
+    <div class="sidebar">
+        <img src="profile.jpg" alt="Profile Photo" class="profile-pic">
+        <h1>Tayeba<br>Qazi</h1>
+        <div class="links">
+            <a href="#">Email</a> / 
+            <a href="#">CV</a> / 
+            <a href="#">LinkedIn</a><br>
+            <a href="#">Github</a> / 
+            <a href="#">Google Scholar</a>
+        </div>
         <nav>
             <a href="index.html">Home</a>
+            <a href="news.html">Recent News</a>
             <a href="publications.html">Publications</a>
-            <a href="talks.html">Talks</a>
+            <a href="talks.html">Invited Talks</a>
             <a href="service.html">Service</a>
         </nav>
-    </header>
-    <main>
+    </div>
+    <div class="content">
+        <h2>About Me</h2>
         <section>
             <p>
                 I'm a PhD student at the Bharti School of Telecommunication Technology and Management, Indian Institute of Technology (IIT) Delhi, where I am advised by Prof. Brejesh Lall. I am supported by the prestigious Prime Minister's Research Fellowship (PMRF), awarded by the Government of India. My research lies at the intersection of computer vision and generative AI, with a current focus on the synthesis of thermal data and its applications in behavior and gesture recognition, particularly in autonomous systems.
@@ -42,6 +51,14 @@
                 In addition to research, I enjoy exploring the intersection of science, systems, and society, and am particularly interested in the deployment of AI in real-world, mission-critical applications.
             </p>
         </section>
-    </main>
+
+        <h2>Recent News</h2>
+        <ul class="news">
+            <li><strong>[Apr 2025]</strong> Gave a talk at the Stanford NeuroAILab.</li>
+            <li><strong>[Mar 2025]</strong> Gave a talk at Cohere for AI (recording here).</li>
+            <li><strong>[Jan 2025]</strong> Our paper <em>Personalized Representation...</em> accepted to ICLR 2025.</li>
+            <li><strong>[Dec 2024]</strong> Our preprint <em>What Makes for a Good Stereoscopic Image</em> on Arxiv.</li>
+        </ul>
+    </div>
 </body>
 </html>

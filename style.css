@@ -72,8 +72,6 @@ body {
 
 .pub-item {
   margin-bottom: 32px;
-  display: flex;
-  flex-direction: column;
 }
 
 .pub-title {
@@ -87,6 +85,7 @@ body {
   color: #666;
   font-size: 0.98em;
   margin-top: 2px;
+  display: block; /* Ensure em is on its own line */
 }
 
 .pub-item a {
@@ -99,10 +98,11 @@ body {
   margin-right: 6px;
   text-decoration: none;
   transition: background 0.2s;
+  display: inline-block; /* Display links inline */
+  margin-top: 4px; /* Space between text and links */
 }
 
 .pub-item a:hover {
   background: #ffe6f3;
   text-decoration: underline;
 }
-

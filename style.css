@@ -106,3 +106,12 @@ body {
   background: #ffe6f3;
   text-decoration: underline;
 }
+.pub-links {
+  display: flex;
+  gap: 6px; /* Adjust the spacing between the links as needed */
+}
+
+.pub-links a {
+  /* Add any specific styling for the links here, if needed */
+}
+

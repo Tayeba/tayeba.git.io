@@ -110,6 +110,17 @@ body {
   background: #ffe6f3;
   text-decoration: underline;
 }
+.pub-authors {
+  font-size: 0.97em;
+  color: #333;
+  margin: 4px 0;
+}
+
+.pub-authors b {
+  font-weight: bold;
+  color: #111;
+}
+
 
 .pub-links {
   display: flex;

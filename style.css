@@ -71,7 +71,9 @@ body {
 }
 
 .pub-item {
-  margin-bottom: 32px;
+  margin-bottom: 64px; /* Increased margin */
+  display: flex;
+  flex-direction: column;
 }
 
 .pub-title {
@@ -85,10 +87,14 @@ body {
   color: #666;
   font-size: 0.98em;
   margin-top: 2px;
-  display: block; /* Ensure em is on its own line */
 }
 
-.pub-item a {
+.pub-links {
+  display: flex;
+  gap: 6px;
+}
+
+.pub-links a {
   color: #bb0055;
   background: #fff0fa;
   border: 1px solid #bb0055;
@@ -98,14 +104,13 @@ body {
   margin-right: 6px;
   text-decoration: none;
   transition: background 0.2s;
-  display: inline-block; /* Display links inline */
-  margin-top: 4px; /* Space between text and links */
 }
 
 .pub-item a:hover {
   background: #ffe6f3;
   text-decoration: underline;
 }
+
 .pub-links {
   display: flex;
   gap: 6px; /* Adjust the spacing between the links as needed */
